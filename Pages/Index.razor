@@ -1,6 +1,7 @@
 ﻿@page "/"
 
 @using Syncfusion.Blazor.Grids
+
 <SfGrid DataSource="@Orders" Height="364" AllowFreezeLineMoving="true" AllowSorting="true">
     <GridColumns>
         <GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID"  TextAlign="TextAlign.Right" Width="120"></GridColumn>
